@@ -108,7 +108,7 @@ void close_input_buffer(InputBuffer* input_buffer) {
 int main(int argc, char *argv[]) {
     InputBuffer* input_buffer = new_input_buffer();
 
-    /* main cmd loop */
+    /* main event loop */
     while (true) {
 
         print_prompt();
